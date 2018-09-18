@@ -48,7 +48,7 @@ public class Dao implements IDao {
 				} else if (findByName(contact.getName()) == null) {*/
 					contacts.add(contact);
 				/*} else {
-					System.out.println("Le nom du contact est déjà présent en base");
+					System.out.println("Le nom du contact est deja present en base");
 				}
 			}
 		}*/
@@ -63,7 +63,7 @@ public class Dao implements IDao {
 				} else if (findByName(contact.getName()) != null) {*/
 					contacts.remove(contact);
 				/*} else {
-					System.out.println("Le contact n'est pas présent en base");
+					System.out.println("Le contact n'est pas present en base");
 				}
 			}
 		}*/

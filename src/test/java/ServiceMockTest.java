@@ -1,4 +1,4 @@
-package contact;
+
 
 import org.easymock.EasyMock;
 import org.easymock.EasyMockRule;
@@ -7,6 +7,12 @@ import org.easymock.Mock;
 import org.easymock.TestSubject;
 import org.junit.Rule;
 import org.junit.Test;
+
+import contact.Contact;
+import contact.ContactExistException;
+import contact.ContactNotExistException;
+import contact.IDao;
+import contact.Service;
 
 public class ServiceMockTest extends EasyMockSupport {
 
